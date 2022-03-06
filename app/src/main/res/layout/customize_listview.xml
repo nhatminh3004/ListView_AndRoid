@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewCustome"
+        android:layout_width="155dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewMaSo_Custome"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/imageViewCustome"
+        android:text="Mã số"
+        android:textColor="#E80B0B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewGioiTinh_Custome"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="98dp"
+        android:layout_toEndOf="@+id/imageViewCustome"
+        android:text="Giới tính"
+        android:textColor="#E80B0B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewDonVi_Custome"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="142dp"
+        android:layout_toEndOf="@+id/imageViewCustome"
+        android:text="Đơn Vị"
+        android:textColor="#E80B0B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewHoTen_Custome"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="56dp"
+        android:layout_toEndOf="@+id/imageViewCustome"
+        android:text="Mã số"
+        android:textColor="#E80B0B"
+        android:textSize="20sp" />
+</RelativeLayout>

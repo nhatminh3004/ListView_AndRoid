@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuanLyNhanVien</string>
+    <string-array name="donvi_list">
+        <item>Phòng kế toán</item>
+        <item>Phòng đào tạo</item>
+        <item>Phòng hiệu trưởng</item>
+        <item>Phòng cán bộ</item>
+        <item>Phòng giám sát</item>
+        <item>Phòng lễ tân</item>
+    </string-array>
+</resources>
